@@ -88,7 +88,7 @@ class _GameScreenState extends State<GameScreen> {
               Navigator.of(context).pop();
               _resetGame();
             },
-            child: Text("Restart"),
+            child: Text("Restart", style: TextStyle(color: Colors.blueAccent),),
           ),
         ],
       ),
@@ -109,7 +109,8 @@ class _GameScreenState extends State<GameScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Card Matching Game")),
+      appBar: AppBar(title: Text("Card Matching Game"),),
+      backgroundColor: Colors.greenAccent,
       body: Column(
         children: [
           Padding(
