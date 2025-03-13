@@ -25,7 +25,7 @@ class GameScreen extends StatefulWidget {
 }
 
 class _GameScreenState extends State<GameScreen> {
-  final List<String> _cards = ["A", "A", "B", "B", "C", "C", "D", "D", "E", "E", "F","F"];
+  final List<String> _cards = ["A", "A", "B", "B", "C", "C", "D", "D", "E", "E", "F","F"]; //Expanded card matching
   List<bool> _flipped = List.filled(12, false);
   final List<int> _selectedIndices = [];
   int _score = 0;
